@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Advanced HTML Form</title>
+    <style>
+        /* Add your CSS styles here */
+        header,
+        footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Advanced HTML Form</h1>
+    </header>
+
+    <form>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required><br>
+
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number" min="1" max="10" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="editable-area">Editable Area:</label>
+        <textarea id="editable-area" name="editable-area" rows="4" cols="50" contenteditable></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

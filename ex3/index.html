@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form name="RegForm" method="post">
+        <div class="container">
+            <h1>Registration Form</h1>
+            <p id="error"></p>
+            <p>Name: <br> <input type="text" placeholder="Full Name" size="65" name="Name"></p>
+            <p>Address: <br> <input type="text" size="65" name="Address"></p>
+            <p>Email Id: <br> <input type="email" placeholder="abc123@gmail.com" size="65" name="EMail"></p>
+            <p>Phone No: <br> <input type="tel" placeholder="9876543210" size="65" name="PhoneNo"></p>
+            <p>Password: <br> <input type="password" size="65" name="Password"></p>
+            <p>
+                SELECT YOUR COURSE
+                <br>
+                <select type="text" value="" name="Subject">
+                    <option>Select Any one</option>
+                    <option>BBA</option>
+                    <option>BCA</option>
+                    <option>MBA</option>
+                    <option>MCA</option>
+                </select>
+            </p>
+            <div class="But">
+                <button class="sub" type="submit" value="Send" name="submit">submit</button>
+                <button class="rst" type="reset" value="Reset" name="reset">reset</button>
+            </div>
+        </div>
+    </form>
+    <script src="./index.js"></script>
+</body>
+
+</html>

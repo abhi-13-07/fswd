@@ -1,0 +1,68 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3a5;
+}
+
+#error {
+  color: red;
+  font: bold;
+  padding: 15px;
+}
+
+input {
+  padding: 5px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+p {
+  color: black;
+  font-weight: bolder;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.container {
+  position: relative;
+  background-color: #eaffd6;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.But {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+select option {
+  font-family: sans-serif;
+}
+
+button {
+  font-size: large;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding: 2px 3px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}

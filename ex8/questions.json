@@ -1,0 +1,40 @@
+{ 
+ "DSA" : { 
+ "questions": [ 
+ { 
+ "question": "This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Binary Trees using Array”.", 
+ "options": ["2", "any number of children", "0 or 1 or 2", "0 or 1"], 
+ "correctAnswer":3 
+ }, 
+ { 
+ "question": "What is/are the disadvantages of implementing tree using normal arrays?", 
+ "options": ["difficulty in knowing children nodes of a node", "difficult in finding the parent of a node", "have to know the maximum number of nodes possible before creation of trees", "difficult to implement"], 
+ "correctAnswer":3 
+ }, 
+ { 
+ "question": "What must be the ideal size of array if the height of tree is ‘l’?", 
+ "options": ["2l-1", "l-1", "l", "2l"], 
+ "correctAnswer":1 
+ } 
+ ] 
+ }, 
+ "Python" : { 
+ "questions": [ 
+ { 
+ "question": "This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Binary Trees using Array”.", 
+ "options": ["2", "any number of children", "0 or 1 or 2", "0 or 1"], 
+ "correctAnswer":3 
+ }, 
+ { 
+ "question": "What is/are the disadvantages of implementing tree using normal arrays?", 
+ "options": ["difficulty in knowing children nodes of a node", "difficult in finding the parent of a node", "have to know the maximum number of nodes possible before creation of trees", "difficult to implement"], 
+ "correctAnswer":3 
+ }, 
+ { 
+ "question": "What must be the ideal size of array if the height of tree is ‘l’?", 
+ "options": ["2l-1", "l-1", "l", "2l"], 
+ "correctAnswer":1 
+ } 
+ ] 
+ } 
+} 

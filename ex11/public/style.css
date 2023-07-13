@@ -1,0 +1,18 @@
+li {
+  font-size: 2rem;
+  width: 300px;
+  margin: 4px;
+  padding: 4px;
+  list-style: none;
+}
+.midlaner {
+  background-color: #ffea00;
+}
+
+.input {
+  background-color: red;
+}
+
+.toplaner {
+  background-color: #eeeeee;
+}
